@@ -1,0 +1,189 @@
+\documentclass[a4paper]{article}
+\usepackage{setspace}
+\usepackage[14pt]{extsizes} % setting font size
+\usepackage[utf8]{inputenc} % settnig encoding
+\usepackage[russian, english]{babel}
+\usepackage{setspace}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{caption}
+\usepackage{tabto}
+\usepackage{float}
+\usepackage{parskip}
+\usepackage[
+    left=20mm, top=15mm, right=15mm, bottom=15mm, nohead, footskip=10mm
+]{geometry}
+
+
+
+\usepackage{times}
+\begin{document} 
+ 
+
+\begin{center}
+    \begin{figure}
+        \centering
+        \includegraphics[width = 18cm]{images/logo.jpg}
+    \end{figure}
+    
+    \large{
+        School of Information Technology and Engineering
+    }\\
+    
+    \hfill \break
+    \hfill \break
+    \hfill \break
+    \hfill \break
+    \hfill \break
+    
+
+    \large{
+        \textbf{
+            Laboratory work #10 week11\break
+            Multiplexer
+        }\\
+    }\\
+    
+    \hfill \break
+    \hfill \break
+    \hfill \break
+    \hfill \break
+    \hfill \break
+    \hfill \break
+    
+    \begin{flushright}
+        Done by: \textbf{Sagingaly Meldeshuly}\break
+        Checked by: \textbf{Syed Shah}
+    \end{flushright}
+    
+    \hfill \break
+    
+\end{center}
+
+\hfill \break
+\hfill \break
+
+\begin{center} 
+    Almaty 2024
+\end{center}
+
+\begin{center}
+    -1-
+\end{center}
+
+\thispagestyle{empty}
+ 
+
+
+\textbf{Aims:} investigate operation of the 8*1 multiplexer.
+
+    \textbf{PREPARATION TO LAB WORK.}
+    \begin{itemize}
+        \item Learn the information about multiplexer.
+        \item Consider the scheme of experiment 10A and define the results theoretically. Draw the scheme using Scheme Design System (SDS).
+        \item Construct and draw (using SDS) 16*1 multiplexer with 2 8*1 multiplexers and an OR gate. This will be the scheme for experiment 10B.
+        \item Answer the questions below in written form.
+        \begin{enumerate}
+            \item What is a MUX?
+            \item A MUX's another name is
+            \item Enable input of a MUX is called
+            \item How many functions can a MUX realize?
+            \item A MUX can be used as a DUX. True or false? Why?
+            \item What is a role of a MUX's selection' lines?
+        \end{enumerate}
+    \end{itemize}
+    
+    \textbf{LAB WORK PERFORMANCE.}
+    \begin{itemize}
+        \item Demonstrate presence of your home preparation for lab work to your instructor.
+        \item Pass test of 10 questions.
+        \item Get a permission to begin the work.
+        \item Mount the scheme of experiment 10A on the breadboard and perform it. Fill in the table.
+        \item Make a conclusion about functionality of the scheme. Compare your results with theoretical ones.
+        \item Demonstrate your results to your instructor. If your results are correct you may dismount your scheme, if not, find the mistake.
+        \item Repeat steps 4-6 for experiment 10B.
+        \item Be ready to answer your instructor's questions in process of work.
+        \item Complete your work, dismount your schemes, clean your working place.
+        \item Answer your instructor's final questions, obtain your mark.
+        \item Ask your instructor's permission to leave.
+    \end{itemize}
+    
+     \textbf{Answers of questions}
+     \begin{itemize}
+         \item 4.1. What is a MUX?
+A MUX, short for Multiplexer, is a digital circuit that selects one of several input signals and forwards it to a single output.
+\item 4.2. A MUX's another name is
+
+Another name for a MUX is a data selector.
+\item 4.3. Enable input of a MUX is called
+
+The enable input of a MUX is called the select or control input.
+\item 4.4. How many functions can a MUX realize?
+
+A MUX can realize multiple functions depending on the number of select lines it has. Specifically, a 2^n-to-1 MUX with n select lines can realize 2^n different functions.
+\item 4.5. A MUX can be used as a DUX. True or false? Why?
+
+False. A MUX (Multiplexer) cannot be directly used as a DUX (Demultiplexer) because their functions are different. A MUX selects one of several inputs and forwards it to a single output, while a DUX takes a single input and forwards it to one of several outputs.
+\item 4.6. What is a role of a MUX's selection' lines?
+
+The selection lines of a MUX determine which input is routed to the output. They control which input is selected based on their binary combination, effectively choosing the desired input signal to be passed through to the output.
+     \end{itemize}
+
+\end{center}
+
+\begin{flushright}
+    \begin{figure}
+        \centering
+        \includegraphics[width=15cm]{images/EDD1.jpeg}
+        \caption{Quiz 1}
+        \label{fig:enter-label}
+    \end{figure}
+\end{flushright}
+
+
+\newpage
+\begin{flushright}
+    \begin{figure}
+        \centering
+        \includegraphics{images/EDD2.png}
+        \caption{Quiz 1}
+        \label{fig:enter-label}
+    \end{figure}
+\end{flushright}
+
+
+
+\begin{flushright}
+    \begin{figure}
+        \centering
+        \includegraphics{images/EDD3.png}
+        \caption{Quiz 2}
+        \label{fig:enter-label}
+    \end{figure}
+\end{flushright}
+
+
+\begin{flushright}
+    \begin{figure}
+        \centering
+        \includegraphics{images/EDD4.png}
+        \caption{Quiz 3}
+        \label{fig:enter-label}
+    \end{figure}
+\end{flushright}
+
+\newpage
+\begin{itemize}
+    \item C. selects binary information from one of many input lines and direct it to a single output line.
+    \item A. enable input of decoder.
+    \item D. I${11}$
+    \item B. 01
+    \item A.
+    \item D.
+    \item B. MSI
+    \item E. 1,0,1
+    \item A. 1,0,1
+    \item C 
+\end{itemize}
+
+\end{document}
